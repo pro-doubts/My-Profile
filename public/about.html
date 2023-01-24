@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile About</title>
+        <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../src/home.css">
+        <style>
+            
+            .aboutDIV{
+                color: gray;
+                width: 100;
+                height: 570px; 
+                overflow: auto;  
+            }
+            
+            #phone{
+                font-size: 80px;
+            }
+            #socialLink{
+                font-size: 22px;
+            }
+        </style>
+    </head>
+    <body class="container-fluid mt-2 bg-dark">
+        
+            <header class="bg-dark text-white position-sticky top-0">
+                <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <h2 class="navbar-brand text-danger">
+                            <a hre="home.html" target="bodyframe">
+                                <img src="../public/images/logo.png" alt="Logo" width="40" height="35" class="rounded-circle d-inline-block align-text-top">
+                                ProDoubts
+                            </a>
+                        </h2>
+                        
+                        <div class="d-inline-block">
+                            <div>
+                                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+            
+                            <div class="navbar-collapse collapse " id="menu">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item me-4"><a class="nav-link"  href="../index.html" ><span class="bi bi-house text-danger"></span> Home</a></li>
+                                    <li class="nav-item me-4"><a class="nav-link"  href="../public/about.html" ><span class="bi bi-patch-question text-danger"></span> About</a></li> 
+                                    <li class="nav-item me-4"><a class="nav-link"  href="../public/contact.html" ><span class="bi bi-phone-flip text-danger"></span> Contact</a></li>        
+                                    <li class="nav-item me-4"><a class="nav-link"  href="../public/project.html" ><span class="bi bi-file-bar-graph text-danger"></span> Projects</a></li>
+                                </ul>
+                            </div>
+                        </div>   
+                    </div>
+                 </div>
+            
+            </header>
+        <main class="row mb-5 mt-3">
+            
+            <div class="text-secondary col-3"> 
+                <div class="mb-5">
+                    <a href="#resume" style="text-decoration: none;">
+                        <img src="../public/images/asp.png" height="100px" width="100px">
+                        <h4 class="text-secondary ms-2">Resume</h4>
+                    </a>
+                </div>
+
+                <div class="mb-5">
+                    <a href="#keyskill" style="text-decoration: none;">
+                        <img src="../public/images/coding.png" height="100px" width="100px">
+                        <h4 class="text-secondary">Key Skills</h4>
+                    </a>
+                </div>
+
+                <div>
+                    <a href="#contact" style="text-decoration: none;">
+                        <span id="phone" class="bi bi-file-earmark-person-fill text-decoration-none text-black "></span>
+                        <h4 class="text-secondary">Contacts</h4>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="aboutDIV col-9">
+                <h2 id="resume" class="text-secondary text-center bg-black p-3 border rounded border-secondary border-1">My Resume</h2>
+                <div class="text-center mt-5 mb-5">
+                    <img src="../public/images/Resume.png" class="border border-3 border-primary rounded rounded-5">
+                    <div class="mt-4">
+                        <button class="btn btn-primary"><span class="bi bi-download"></span> Download Resume</button>
+                    </div>
+                </div>
+                
+
+                <h2 id="keyskill" class="text-secondary text-center bg-black p-3 border rounded border-secondary border-1">Key Skills on Technologies</h2>
+                <h4 class="text-light">Front End Skills</h4>
+                    <div class="border p-3 rounded-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/react.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">React JS</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Single Page Applications</span> 
+                            </dd>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Progressive Web Applications</span> 
+                            </dd>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Mobile Applications</span> 
+                            </dd>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Desktop Applications</span> 
+                            </dd>
+                        </dl>
+                    </div>
+        
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/html5.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">HTML</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Gives the Best structural layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+        
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/css3.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">CSS</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> To make more Attractive and Beautiful</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+        
+        
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/js.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">JavaScript</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Get Dynamic and Attractive Design Interfaces</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+        
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/bootstrap.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">Bootstrap</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> For Easy to navigate and Responsive Application</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+        
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/sass.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">SASS</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+                    
+                    <h4 class="text-light mt-3">Version Control System</h4>
+                    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/github.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">Github</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Keep my versions and control all</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+    
+                    <h4 class="text-light mt-3">Back End Skills</h4>
+                    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/node.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">node JS</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/express.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">express JS</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/php.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">PHP</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/asp.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">ASP.NET</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <h4 class="text-light mt-3">Programming Language Knowledge</h4>
+                    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/c.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">C Language</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/c++.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">C++</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/java.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">Java</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/python.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">Python</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <h4 class="text-light mt-3">Database Managemet System</h4>
+                    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/mysql.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">MySQL</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/mongodb.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">MongoDB</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/sqlserver.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">Microsoft SQL Server</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Enhance the desing and layout</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <h4 class="text-light mt-3">Operating System's</h4>
+                    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/linux.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">Linux</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Keep my versions and control all</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/windows.png" alt="logo" width="250" height="100">
+                                <h4 class="mt-2 text-danger">Windows</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Keep my versions and control all</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+                    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/mac.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">Mac OS</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Keep my versions and control all</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+                    
+                    <div class="border p-3 rounded-3 mt-3">
+                        <dl>
+                            <dt>
+                                <img src="./images/android.png" alt="logo" width="100" height="100">
+                                <h4 class="mt-2 text-danger">Android</h4>
+                            </dt>
+                            <dd>
+                                <span class="bi bi-arrow-bar-right text-light"> Keep my versions and control all</span> 
+                            </dd>
+                            
+                        </dl>
+                    </div>
+        
+                    <h2 id="contact" class="mt-5 text-secondary text-center bg-black p-3 border rounded border-secondary border-1">Social Links</h2>
+                    <h6 class="text-center text-white">Stay Connected with me on </h6>
+                    <div class="text-white text-center p-4" id="socialLink">
+                        <span class="bi bi-facebook me-4"></span>
+                        <span class="bi bi-whatsapp me-4"></span>
+                        <span class="bi bi-instagram me-4"></span>
+                        <span class="bi bi-twitter me-4"></span>
+                        <span class="bi bi-linkedin me-4"></span>
+                        <span class="bi bi-github me-4"></span>
+                        
+                    </div>
+                </div>
+    
+        </main>
+        <footer class="bg-black text-white text-center p-4">
+            <div class="p-4">
+                <p>Personal Profile</p>
+                <hr>
+                &copy; Copyright all rights reserved 2023.
+            </div>
+            <div class="row mb-5">
+                <div class="mt-2 col-6 text-center">
+                    <span>Follow me On - </span>
+                    <span class="bi bi-facebook ms-3"></span>
+                    <span class="bi bi-instagram ms-3"></span>
+                    <span class="bi bi-twitter ms-3"></span>
+                    <span class="bi bi-github ms-3"></span>
+                    <span class="bi bi-linkedin ms-3"></span>
+                    
+                </div>
+                <div class="col-6 text-center">
+                    <div>
+                        <span>Contact me -</span>
+                        <span class="bi bi-phone-flip"></span> +91 9630126293,  
+                        <span class="bi bi-envelope-at"></span> umashverma55@gmail.com
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="../../node_modules/jquery/dist/jquery.js"></script>
+        <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
